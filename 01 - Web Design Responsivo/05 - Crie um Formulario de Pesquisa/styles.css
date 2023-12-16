@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    color: #333;
+}
+
+#description {
+    text-align: center;
+    color: #666;
+}
+
+#survey-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+span {
+    display: block;
+    margin-bottom: 16px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+#submit {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    resize: vertical;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
