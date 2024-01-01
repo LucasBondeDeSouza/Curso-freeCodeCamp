@@ -1,0 +1,14 @@
+<style type='text/scss'>
+    /* Utilizando a diretiva @for para criar as classes text-1 até text-5 */ 
+    @for $j from 1 through 5 {
+      .text-#{$j} {
+        font-size: 15px * $j;
+      }
+    }
+</style>
+
+<p class="text-1">Hello</p>
+<p class="text-2">Hello</p>
+<p class="text-3">Hello</p>
+<p class="text-4">Hello</p>
+<p class="text-5">Hello</p>

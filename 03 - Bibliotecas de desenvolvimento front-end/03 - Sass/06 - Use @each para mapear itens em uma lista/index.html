@@ -1,0 +1,18 @@
+<style type='text/scss'>
+    /* Criando uma lista de cores */ 
+    $cores: blue, black, red;
+  
+    /* Utilizando a diretiva @each para percorrer a lista */ 
+    @each $cor in $cores {
+      // Criando as classes .color-bg com a cor correspondente no nome
+      .#{$cor}-bg {
+        background-color: $cor;
+        height: 200px;
+        width: 200px;
+      }
+    }
+</style>
+
+<div class="blue-bg"></div>
+<div class="black-bg"></div>
+<div class="red-bg"></div>
