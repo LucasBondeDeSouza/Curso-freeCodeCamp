@@ -1,0 +1,1 @@
+var yourArray = ["string", 123, true, 4.56, "outra string"];
